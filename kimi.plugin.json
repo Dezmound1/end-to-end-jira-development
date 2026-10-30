@@ -1,0 +1,17 @@
+{
+  "name": "jira-agents",
+  "version": "1.0.0",
+  "description": "Jira task reading and implementation workflows for Kimi Code CLI",
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "mcpServers": {
+    "jira": {
+      "command": "python",
+      "args": ["./mcp/jira_mcp_server.py"]
+    }
+  },
+  "interface": {
+    "displayName": "Jira Agents",
+    "shortDescription": "Read Jira tasks and coordinate their implementation"
+  }
+}
